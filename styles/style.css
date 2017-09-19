@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document by Ravi */
+/* Style by Ravi dubey */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+body {background:#CCCCCC;} 
+.main_wrapper {
+width:1000px;
+height:200;
+margin:auto;
+
+}
+.header_wrapper{
+width:1130px;
+height:200px;
+background:#FFFF00;
+}
+#navbar{
+width:1130px;
+height:40px;
+background:#CCCCCC;
+color:#00FF00;
+}
+#menu{
+padding:0;
+line-height:30px;
+margin-top:5px;
+float:left;
+}
+#menu li {
+list-style:none;
+display:inline;
+}
+#menu a {
+color:#FFFFFF;
+text-decoration:none;
+font-size:18px;
+margin:5px;
+padding:10px;
+}
+#menu a:hover{
+text-decoration:underline;
+color:#FF0000;
+font-weight:700px;
+}
+#form {float:right; line-height:50px; padding-right:22px;}
+
+.contant_wrapper {
+width:1130px;
+height:600px;
+background:#CCCC00;
+}
+#right_sidebar{
+width:830px;
+height:580px;
+background:#FFCCCC;
+float:right;
+}
+#left_sidebar{
+width:300px;
+height:600px;
+background:#000000;
+float:left;
+}
+
+.footer{
+width:1130px;
+height:100px;
+background:#996633;
+color:#FFFFFF;
+clear:both;
+}
+#sidebar_title{
+background:#FFFFFF;
+color:#000000;
+padding:10px;
+font-size:24px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#cate{
+padding:10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:24px;
+text-align:center;
+}
+#cate li {
+list-style:none; padding:6px;}
+#cate a {color:#FF0000; font-size:16px; text-decoration:none; margin:5px;}
+#cate a:hover{color:#FFFF00; text-decoration:blink; font-weight:200px;}
+
+#headline {background:#000000; color:#990000; float:right; height:35px; width:560px; }
+#headline_content{float:right; padding:5px; padding-top:5px;}
+
+#products_box{
+width:78px;
+padding:10px;
+margin-left:30px;
+margin-top:10px;
+margin-bottom:10px;
+text-align:center;
+}
+#single_product{
+float:left;
+
+margin-left:10px;
+padding-left:45px;
+padding-right:10px;
+padding-top:15px;
+
+}
+#single_product img {border:2px solid #FF0000;} 
+
